@@ -1,11 +1,11 @@
 const countries4 = [
-{ name: Nigeria, continent: Africa, population:100123},
-{ name: china, continent: Asia, population:270123},
-{ name: India, continent: Asia, population:240123},
-{ name: Nepal, continent: Asia, population:100123},
-{ name: Angola, continent: Africa, population:100123},
-{ name: Greece, continent: Europe, population:100123},
-{ name: Kenya, continent: Africa, population:100123},
+{ name: Nigeria, continent: Africa, population:100123};
+{ name: china, continent: Asia, population:270123};
+{ name: India, continent: Asia, population:240123};
+{ name: Nepal, continent: Asia, population:100123};
+{ name: Angola, continent: Africa, population:100123};
+{ name: Greece, continent: Europe, population:100123};
+{ name: Kenya, continent: Africa, population:100123};
 { name: London, continent: Europe, population:55123}
 ]
 
