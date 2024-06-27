@@ -1,0 +1,17 @@
+const countries5 = [
+{ name: ‘Nigeria’,currency:’Naira’},
+{ name: ‘china’, currency:’Yuan’},
+{ name: ‘India’, currency:’Rs’},
+{ name: ‘Nepal’, currency:’Nepalese’},
+{ name: ‘Angola’, currency:’Kwanza’},
+{ name: ‘Greece’, currency:’GRD’},
+{ name: ‘Kenya’, currency:’Kenyan’},
+{ name: ‘London’, currency:’Pound’},
+{ name: ‘America(U.S)’, currency:’Dollar’}
+]
+
+let asianCountries5 = (country) => {
+return countries5.filter(x => x.indexOf(country) > -1);
+}
+
+console.log(asianCountries5(‘amer’));
